@@ -59,7 +59,18 @@ h1{
   margin: 5% 3% 5% 0;
 }
 
-/* Features */
+/* Features Section */
+
+#features{
+  padding: 7% 15%;
+}
+
+.feature-box{
+  text-align: center;
+  padding: 4.5%;
+}
+
+
 
 h3{
   color:"Montserrat";
@@ -71,14 +82,14 @@ p{
   color:#8f8f8f
 }
 
-.fa-solid{
+.icon{
   color: #ef8172;
   font-size: 3rem;
-  padding-bottom: 10px;
+  margin-bottom: 1rem;
 
 
 }
 
-.fa-solid:hover{
+.icon:hover{
   color: #ff4c68;
 }
