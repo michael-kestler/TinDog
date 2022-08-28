@@ -72,5 +72,13 @@ p{
 }
 
 .fa-solid{
-  color: #ef8172
+  color: #ef8172;
+  font-size: 3rem;
+  padding-bottom: 10px;
+
+
+}
+
+.fa-solid:hover{
+  color: #ff4c68;
 }
