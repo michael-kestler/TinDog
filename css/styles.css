@@ -19,6 +19,13 @@ h1{
 
 }
 
+h2{
+  font-family: "Montserrat";
+  font-size: 3rem;
+  font-weight: 900;
+  line-height: 1.5;
+}
+
 /* Title Image */
 .iphone{
   transform: rotate(25deg);
