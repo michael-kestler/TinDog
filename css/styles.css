@@ -3,15 +3,6 @@ body{
 
 }
 
-
-#title{
-  background-color: #ff4c68;
-}
-
-.container-fluid{
-  padding: 3% 15% 7%;
-}
-
 h1{
   font-family: "Montserrat", sans-serif;
   font-size: 3.5rem;
@@ -26,6 +17,27 @@ h2{
   font-weight: 900;
   line-height: 1.5;
 }
+
+h3{
+  color:"Montserrat";
+  font-weight: 900;
+  font-size: 1.5rem;
+}
+
+p{
+  color:#8f8f8f
+}
+
+
+#title{
+  background-color: #ff4c68;
+}
+
+.container-fluid{
+  padding: 3% 15% 7%;
+}
+
+
 
 /* .title-row{
   position:relative;
@@ -95,15 +107,7 @@ h2{
 
 
 
-h3{
-  color:"Montserrat";
-  font-weight: 900;
-  font-size: 1.5rem;
-}
 
-p{
-  color:#8f8f8f
-}
 
 .icon{
   color: #ef8172;
