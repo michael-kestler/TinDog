@@ -1,31 +1,38 @@
 body{
   font-family: "Montserrat", sans-serif;
-
 }
 
-h1{
-  font-family: "Montserrat", sans-serif;
-  font-size: 3.5rem;
-  line-height: 1.5;
+h1, h2, h3, h4, h5, h6 {
+  color:"Montserrat";
   font-weight: 900;
-
 }
 
 h2{
-  font-family: "Montserrat";
   font-size: 3rem;
-  font-weight: 900;
   line-height: 1.5;
 }
 
 h3{
-  color:"Montserrat";
-  font-weight: 900;
-  font-size: 1.5rem;
+ font-size: 1.5rem;
 }
 
 p{
   color:#8f8f8f
+}
+
+/* Heading */
+
+.title-head{
+  font-family: "Montserrat", sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: 900;
+  color: white;
+}
+
+.section-heading{
+  font-size: 3rem;
+  line-height: 1.5;
 }
 
 
@@ -58,9 +65,7 @@ p{
 
 }
 
-.title-head{
-  color: white;
-}
+
 
 /* Navigation Bar */
 
@@ -130,6 +135,11 @@ p{
   color: #fff;
 }
 
+.testimonial-text{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
 .testimonial-image{
   width: 10%;
   border-radius: 100%;
@@ -159,6 +169,11 @@ p{
 #pricing{
   padding:100px;
   text-align: center;
+}
+
+.price-text{
+  font-size: 3rem;
+  line-height: 1.5;
 }
 
 .pricing-column{
