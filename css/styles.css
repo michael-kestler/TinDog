@@ -28,31 +28,10 @@ p{
   line-height: 1.5;
 }
 
-
-#title{
-  background-color: #ff4c68;
-  color: #fff;
-  text-align: left;
-}
-
+/* Containers */
 .container-fluid{
-  padding: 3% 15% 7%;
+  padding: 7% 15%;
 }
-
-
-/* Title Image */
-.iphone{
-  transform: rotate(25deg);
-  max-width: 100%;
-  max-height: 100%;
-  /* width: 30%; */
-
-
-  position: absolute;
-  right: 20%;
-
-}
-
 
 
 /* Navigation Bar */
@@ -76,6 +55,35 @@ p{
   font-family: "Montserrat-light";
 }
 
+/* Title Section */
+
+#title{
+  background-color: #ff4c68;
+  color: #fff;
+  text-align: left;
+}
+
+#title .container-fluid{
+  padding: 3% 15% 7%;
+}
+
+
+
+/* Title Image */
+.iphone{
+  transform: rotate(25deg);
+  max-width: 100%;
+  max-height: 100%;
+  /* width: 30%; */
+
+
+  position: absolute;
+  right: 20%;
+
+}
+
+
+
 /* Download Buttons */
 
 .download-button{
@@ -84,12 +92,11 @@ p{
 
 /* Features Section */
 
+
 #features{
-  padding: 7% 15%;
   background-color: #fff;
   position: relative;
-  /* z-index: 1; */
-}
+  }
 
 .feature-title{
   font-size: 1.5rem;
@@ -98,7 +105,6 @@ p{
 .feature-box{
   padding: 4.5%;
 }
-
 
 
 
@@ -136,7 +142,6 @@ p{
 }
 
 .carousel-item{
-  padding: 7% 15%;
 }
 
 /* Press Section */
@@ -190,5 +195,8 @@ p{
   font-size: 3.5rem;
   line-height: 1.5;
   font-weight: 900;
-  padding-top: 50px;
 }
+
+/* #footer{
+  padding: 7% 15%;
+} */
